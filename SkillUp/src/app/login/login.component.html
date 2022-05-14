@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="form-container">
+    <img src="../../assets/img/image.png" alt="Logo">
+    <h2>Login</h2>
+    <form [formGroup]="signInForm" (ngSubmit)="onLoginClick()" ngNativeValidate>
+      <div>
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Please write your email" name="email" autocomplete="email" required formControlName="email">
+      </div>
+      <div>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Please write your password" name="password" autocomplete="current-password" required formControlName="password">
+      </div>
+      <button type="submit">Login</button>
+      <a routerLink="../register">Register</a>
+    </form>
+  </div>
+</div>

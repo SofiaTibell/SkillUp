@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.form-container {
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  background-color: #0c5b77;
+  color: white;
+}
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  background-color: #149ccc;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+a {
+  float: right;
+  color: white;
+  padding-top: 10px;
+}

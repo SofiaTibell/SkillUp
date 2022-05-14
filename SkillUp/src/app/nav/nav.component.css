@@ -1,0 +1,19 @@
+h1 {
+  color: white;
+  background-color: #1B2638;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.img-container {
+  background-color: #0c5b77;
+  padding: 5px;
+  border: 1px solid white;
+  margin: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

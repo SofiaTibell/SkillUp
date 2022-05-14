@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="form-container">
+    <h2>Register</h2>
+    <form [formGroup]="signUpForm" (ngSubmit)="onLoginClick()" ngNativeValidate>
+      <div>
+        <label for="name"><b>Name</b></label>
+        <input type="name" placeholder="Please write your name" name="name">
+      </div>
+      <div>
+        <label for="name"><b>Age</b></label>
+        <input type="age" placeholder="Please write your age" name="age">
+      </div>
+      <div>
+        <label for="education"><b>Education</b></label>
+        <input type="education" placeholder="Please write your education" name="education">
+      </div>
+      <div>
+        <label for="skills"><b>Skills</b></label>
+        <input type="skills" placeholder="Please write your skills" name="skills">
+      </div>
+      <div>
+        <label for="roles"><b>Roles</b></label>
+        <input type="roles" placeholder="Please write your roles" name="roles">
+      </div>
+      <div>
+        <label for="experties"><b>Experties</b></label>
+        <input type="experties" placeholder="Please write your experties" name="experties">
+      </div>
+      <div>
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Please write your email" name="email" autocomplete="email" required formControlName="email">
+      </div>
+      <div>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Please write your password" name="password" autocomplete="current-password" required formControlName="password">
+      </div>
+      <div>
+        <label for="cv"><b>Upload CV</b></label>
+        <input class="file-input" type="file">
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</div>
+
+

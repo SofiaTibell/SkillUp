@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-profile',
@@ -6,16 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  text = 'Text';
-  imgSrc = '';
-  imgAlt = 'Alternative text';
+  @Input() Name: string | undefined;
+  @Input() Age: number | undefined;
+  @Input() Education: string | undefined;
+  @Input() Skills: string | undefined;
+  CV: string | undefined;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.text = "Hello";
-    this.imgSrc = "img source";
-    this.imgAlt = "This is our image";
+    this.CV = "I am competent";
   }
 
 }
