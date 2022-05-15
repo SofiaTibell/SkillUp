@@ -1,19 +1,42 @@
-h1 {
+.toolbar {
+  grid-area: nav;
+  background-color: #0c5b77;
   color: white;
-  background-color: #1B2638;
-  text-align: center;
+}
+
+.toolbar ul {
   margin: 0;
+  height: 60px;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  position: relative;
+}
+
+.toolbar ul li {
   padding: 15px;
 }
 
-.img-container {
-  background-color: #0c5b77;
-  padding: 5px;
-  border: 1px solid white;
-  margin: 50px;
+.push-left {
+  position: fixed;
+  left: 0px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+a:link, a:visited {
   color: white;
+}
+
+a:hover, a:active {
+  color: black;
 }

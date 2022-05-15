@@ -10,7 +10,9 @@ export class ProfileComponent implements OnInit {
   @Input() Age: number | undefined;
   @Input() Education: string | undefined;
   @Input() Skills: string | undefined;
-  CV: string | undefined;
+  @Input() imgSrc: string | undefined;
+  @Input() imgAlt: string | undefined;
+  @Input() CV: string | undefined;
 
   constructor() { }
 

@@ -1,5 +1,13 @@
+<app-nav></app-nav>
 <div class="container">
-  <app-nav class="item"></app-nav>
   <app-leaderboard class="item"></app-leaderboard>
+  <div class="item">
+    <div class="recomendation">
+      <h3>Grand Wizard Recommended for you:</h3>
+      <a href="/profile">
+      <app-profile [Name]="Name1" [Age]="Age1" [Education]="Education1" [Skills]="Skills1" [imgSrc]="imgSrc" [imgAlt]="imgAlt" [CV]="CV"></app-profile>
+      </a>
+    </div>
+  </div>
 </div>
 

@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { SwipeComponent } from './swipe/swipe.component';
 import { TeacherOverviewComponent } from './teacher-overview/teacher-overview.component';
+import { DummyProfileComponent } from './dummy-profile/dummy-profile.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TeacherOverviewComponent } from './teacher-overview/teacher-overview.co
     HomeComponent,
     RegisterComponent,
     SwipeComponent,
-    TeacherOverviewComponent
+    TeacherOverviewComponent,
+    DummyProfileComponent
   ],
   imports: [
     BrowserModule,

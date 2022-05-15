@@ -7,6 +7,7 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { TeacherOverviewComponent } from './teacher-overview/teacher-overview.component';
+import { DummyProfileComponent } from './dummy-profile/dummy-profile.component';
 
 const routes: Routes = [
   {
@@ -23,7 +24,7 @@ const routes: Routes = [
   },
   {
     path: 'profile',
-    component: ProfileComponent
+    component: DummyProfileComponent
   },
   {
     path: 'overview',
